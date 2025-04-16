@@ -39,11 +39,17 @@ function showSongs(canciones) {
     const divSong = document.createElement('div');
     divSong.className = 'song';
 
-    // Título
-    const titulo = document.createElement('h2');
-    titulo.className = 'song-title';
-    titulo.textContent = `${cancion.title.original} / ${cancion.title.spanish}`;
-    divSong.appendChild(titulo);
+    // Título original
+    const tituloOriginal = document.createElement('h2');
+    tituloOriginal.className = 'song-title';
+    tituloOriginal.textContent = `${cancion.title.original}`;
+    divSong.appendChild(tituloOriginal);
+
+    // Título original
+    const tituloTraducido = document.createElement('h2');
+    tituloTraducido.className = 'song-title song-title-spanish';
+    tituloTraducido.textContent = `${cancion.title.spanish}`;
+    divSong.appendChild(tituloTraducido);
 
     // Créditos
     const creditos = document.createElement('p');
