@@ -1,3 +1,10 @@
+fetch('JSON/Anathema - Judgement - 1999.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log('test data:', data);
+  })
+  .catch(error => console.error('Error cargando el JSON:', error));
+
 document.getElementById('jsonInput').addEventListener('change', function(event) {
   const archivo = event.target.files[0];
   if (!archivo) return;
