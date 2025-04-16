@@ -4,13 +4,11 @@ const fileInfoDiv = document.getElementById('fileInfo');
 const songsContainer = document.getElementById('songsContainer');
 
 function createSongPicker(availableSongs) {
-  console.log('availableSongs: ', availableSongs);
-  
   const ordenadas = availableSongs.sort((a, b) => a.localeCompare(b));
 
   ordenadas.forEach(filename => {
     const archivoSinExt = filename.replace(/\.json$/i, '');
-    const partes = archivoSinExt.split(' - ');
+    const partes = archivoSinExt.split(' -- ');
     if (partes.length !== 3) return;
 
     const [banda, album, año] = partes.map(p => p.trim());

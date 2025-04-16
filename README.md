@@ -11,5 +11,6 @@ Comparativa de Letras de Canciones en formato JSON
    - Opciones del navegador (arriba a la derecha) > Más Herramientas > Herramientas para Desarrolladores
 3) Ir a la pestaña Elementos o Elements
 4) Dentro buscar `<div class="lyrics">`, hacer clic derecho sobre él > Copy > Copy Element
-5) Pegar el contenido en chatgpt debajo del prompt y lanzarlo
-6) Crear un archivo .json dentro de la carpeta JSON con el nombre de la banda, el álbum y el año según el formato `banda - álbum - año.json`
+5) Pegar el contenido en chatgpt debajo del prompt y lanzarlo (recuerda usar Shift + Enter)
+6) Crear un archivo .json dentro de la carpeta JSON con el nombre de la banda, el álbum y el año según el formato `banda -- álbum -- año.json`
+7) Incluir el nombre del archivo en available-songs.json
