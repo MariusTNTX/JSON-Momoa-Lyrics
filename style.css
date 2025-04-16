@@ -21,19 +21,37 @@ h2, h3 {
 h3 {
   font-weight: 500;
 }
-#jsonInput {
-  display: block;
+.song-picker {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px 10px;
   margin: 30px auto;
-  padding: 10px;
-  font-size: 16px;
-  border: 2px solid #2b3e50;
-  border-radius: 5px;
-  background: #fff;
-  max-width: -webkit-fill-available;
+  max-width: 700px;
+  background: #5a8fce;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-#jsonInput:focus {
-  outline: none;
-  border-color: #5a8fce;
+.song-item {
+  box-sizing: border-box;
+  padding: 8px 15px;
+  margin: 3px 0px;
+  width: 100%;
+  border-radius: 6px;
+  text-align: left;
+  background: #e9eff4;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: bold;
+  color: #2b3e50;
+}
+.song-item:hover {
+  background: #d2e0ee;
 }
 #fileInfo {
   text-align: center;
