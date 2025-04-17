@@ -362,6 +362,88 @@
   },
   {
     "title": {
+      "original": "Make It Right",
+      "spanish": "Hazlo Bien"
+    },
+    "credits": "[Lyrics & Music: J. Douglas]",
+    "sections": [
+      [
+        {
+          "original": "I know that I want you",
+          "spanish": "Sé que te deseo"
+        },
+        {
+          "original": "I know that I need you",
+          "spanish": "Sé que te necesito"
+        },
+        {
+          "original": "But I can't pretend that",
+          "spanish": "Pero no puedo fingir que"
+        },
+        {
+          "original": "This'll make it right",
+          "spanish": "Esto lo arreglará"
+        }
+      ],
+      [
+        {
+          "original": "You whisper your name",
+          "spanish": "Susurras tu nombre"
+        },
+        {
+          "original": "But I can't hear you",
+          "spanish": "Pero no puedo oírte"
+        },
+        {
+          "original": "Don't leave me behind",
+          "spanish": "No me dejes atrás"
+        },
+        {
+          "original": "Lend me your hand",
+          "spanish": "Préstame tu mano"
+        }
+      ],
+      [
+        {
+          "original": "I can feel them",
+          "spanish": "Puedo sentirlos"
+        },
+        {
+          "original": "I think they're closing in",
+          "spanish": "Creo que se cierran sobre mí"
+        },
+        {
+          "original": "Don't leave me behind",
+          "spanish": "No me dejes atrás"
+        },
+        {
+          "original": "Lend me your hand",
+          "spanish": "Préstame tu mano"
+        }
+      ],
+      [
+        {
+          "original": "Let me feel you",
+          "spanish": "Déjame sentirte"
+        },
+        {
+          "original": "By my side",
+          "spanish": "A mi lado"
+        },
+        {
+          "original": "Be where I can hear you",
+          "spanish": "Estar donde pueda escucharte"
+        },
+        {
+          "original": "I long to feel",
+          "spanish": "Anhelo sentirte"
+        }
+      ]
+    ],
+    "isInstrumental": false
+  },
+  {
+    "title": {
       "original": "One Last Goodbye",
       "spanish": "Un último adiós"
     },
@@ -496,88 +578,6 @@
   },
   {
     "title": {
-      "original": "Make It Right",
-      "spanish": "Hazlo Bien"
-    },
-    "credits": "[Lyrics & Music: J. Douglas]",
-    "sections": [
-      [
-        {
-          "original": "I know that I want you",
-          "spanish": "Sé que te deseo"
-        },
-        {
-          "original": "I know that I need you",
-          "spanish": "Sé que te necesito"
-        },
-        {
-          "original": "But I can't pretend that",
-          "spanish": "Pero no puedo fingir que"
-        },
-        {
-          "original": "This'll make it right",
-          "spanish": "Esto lo arreglará"
-        }
-      ],
-      [
-        {
-          "original": "You whisper your name",
-          "spanish": "Susurras tu nombre"
-        },
-        {
-          "original": "But I can't hear you",
-          "spanish": "Pero no puedo oírte"
-        },
-        {
-          "original": "Don't leave me behind",
-          "spanish": "No me dejes atrás"
-        },
-        {
-          "original": "Lend me your hand",
-          "spanish": "Préstame tu mano"
-        }
-      ],
-      [
-        {
-          "original": "I can feel them",
-          "spanish": "Puedo sentirlos"
-        },
-        {
-          "original": "I think they're closing in",
-          "spanish": "Creo que se cierran sobre mí"
-        },
-        {
-          "original": "Don't leave me behind",
-          "spanish": "No me dejes atrás"
-        },
-        {
-          "original": "Lend me your hand",
-          "spanish": "Préstame tu mano"
-        }
-      ],
-      [
-        {
-          "original": "Let me feel you",
-          "spanish": "Déjame sentirte"
-        },
-        {
-          "original": "By my side",
-          "spanish": "A mi lado"
-        },
-        {
-          "original": "Be where I can hear you",
-          "spanish": "Estar donde pueda escucharte"
-        },
-        {
-          "original": "I long to feel",
-          "spanish": "Anhelo sentirte"
-        }
-      ]
-    ],
-    "isInstrumental": false
-  },
-  {
-    "title": {
       "original": "Parisienne Moonlight",
       "spanish": "Luna parisina"
     },
@@ -695,6 +695,70 @@
         {
           "original": "To feel...",
           "spanish": "A sentir..."
+        }
+      ]
+    ],
+    "isInstrumental": false
+  },
+  {
+    "title": {
+      "original": "Judgement",
+      "spanish": "Juicio"
+    },
+    "credits": "[Lyrics: V. Cavanagh, Music: D. Cavanagh & J. Douglas]",
+    "sections": [
+      [
+        {
+          "original": "The inequity of fate",
+          "spanish": "La desigualdad del destino"
+        },
+        {
+          "original": "The pains of love and hate",
+          "spanish": "Los dolores del amor y del odio"
+        },
+        {
+          "original": "The heart-sick memories",
+          "spanish": "Los recuerdos que enferman el corazón"
+        },
+        {
+          "original": "That brought you to your knees",
+          "spanish": "Que te hicieron caer de rodillas"
+        }
+      ],
+      [
+        {
+          "original": "And the times when we were young",
+          "spanish": "Y los tiempos en que éramos jóvenes"
+        },
+        {
+          "original": "When life seemed so long",
+          "spanish": "Cuando la vida parecía eterna"
+        },
+        {
+          "original": "Day after day",
+          "spanish": "Día tras día"
+        },
+        {
+          "original": "You burned it all away",
+          "spanish": "Lo consumiste todo"
+        }
+      ],
+      [
+        {
+          "original": "All the hate that feeds your needs",
+          "spanish": "Todo el odio que alimenta tus deseos"
+        },
+        {
+          "original": "All the sickness you conceive",
+          "spanish": "Toda la enfermedad que concibes"
+        },
+        {
+          "original": "All the horror you create",
+          "spanish": "Todo el horror que creas"
+        },
+        {
+          "original": "Will bring you to your knees",
+          "spanish": "Te hará caer de rodillas"
         }
       ]
     ],
@@ -1095,70 +1159,6 @@
         {
           "original": "Escaping the law of the unexplained pains",
           "spanish": "Escapando de la ley de los dolores inexplicables"
-        }
-      ]
-    ],
-    "isInstrumental": false
-  },
-  {
-    "title": {
-      "original": "Judgement",
-      "spanish": "Juicio"
-    },
-    "credits": "[Lyrics: V. Cavanagh, Music: D. Cavanagh & J. Douglas]",
-    "sections": [
-      [
-        {
-          "original": "The inequity of fate",
-          "spanish": "La desigualdad del destino"
-        },
-        {
-          "original": "The pains of love and hate",
-          "spanish": "Los dolores del amor y del odio"
-        },
-        {
-          "original": "The heart-sick memories",
-          "spanish": "Los recuerdos que enferman el corazón"
-        },
-        {
-          "original": "That brought you to your knees",
-          "spanish": "Que te hicieron caer de rodillas"
-        }
-      ],
-      [
-        {
-          "original": "And the times when we were young",
-          "spanish": "Y los tiempos en que éramos jóvenes"
-        },
-        {
-          "original": "When life seemed so long",
-          "spanish": "Cuando la vida parecía eterna"
-        },
-        {
-          "original": "Day after day",
-          "spanish": "Día tras día"
-        },
-        {
-          "original": "You burned it all away",
-          "spanish": "Lo consumiste todo"
-        }
-      ],
-      [
-        {
-          "original": "All the hate that feeds your needs",
-          "spanish": "Todo el odio que alimenta tus deseos"
-        },
-        {
-          "original": "All the sickness you conceive",
-          "spanish": "Toda la enfermedad que concibes"
-        },
-        {
-          "original": "All the horror you create",
-          "spanish": "Todo el horror que creas"
-        },
-        {
-          "original": "Will bring you to your knees",
-          "spanish": "Te hará caer de rodillas"
         }
       ]
     ],
