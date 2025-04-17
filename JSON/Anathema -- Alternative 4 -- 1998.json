@@ -378,22 +378,24 @@
                   "spanish": "Nunca volveré atrás otra vez"
               }
           ],
-          {
-              "original": "An answer won't come from me",
-              "spanish": "No obtendrás respuestas de mí"
-          },
-          {
-              "original": "Confront your own worst enemy",
-              "spanish": "Enfrenta a tu peor enemigo"
-          },
-          {
-              "original": "What does your mirror see",
-              "spanish": "¿Qué ve tu espejo?"
+          [
+              {
+                  "original": "An answer won't come from me",
+                  "spanish": "No obtendrás respuestas de mí"
               },
-          {
-              "original": "Is it time to face up to me?",
-              "spanish": "¿Es hora de enfrentarme a mí mismo?"
-          }
+              {
+                  "original": "Confront your own worst enemy",
+                  "spanish": "Enfrenta a tu peor enemigo"
+              },
+              {
+                  "original": "What does your mirror see",
+                  "spanish": "¿Qué ve tu espejo?"
+              },
+              {
+                  "original": "Is it time to face up to me?",
+                  "spanish": "¿Es hora de enfrentarme a mí mismo?"
+              }
+          ]
       ],
       "isInstrumental": false
   },
