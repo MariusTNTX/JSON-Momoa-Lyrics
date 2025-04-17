@@ -1,4 +1,7 @@
 @media (max-width: 450px)  {
+  body {
+    margin: 16px;
+  }
   h1 {
     font-size: 24px;
   }

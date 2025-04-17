@@ -1,16 +1,12 @@
 # JSON-Momoa-Lyrics
-Comparativa de Letras de Canciones en formato JSON
+Comparativa de Letras de Canciones en formato JSON.
 
 ## Pasos para añadir nuevas letras de álbumes
 
-1) Añadir el prompt de prompt.txt en chatgpt SIN LANZARLO y seleccionar la opción "Razona" (SIN LANZARLO TODAVÍA).
-1) Buscar el álbum en http://www.darklyrics.com/index.html y verificar que se visualiza la letra de todas las canciones
-2) Abrir Herramientas para Desarrolladores. Se pude hacer de 3 maneras:
-   - Pulsar F12
-   - Botón derecho > Inspeccionar
-   - Opciones del navegador (arriba a la derecha) > Más Herramientas > Herramientas para Desarrolladores
-3) Ir a la pestaña Elementos o Elements
-4) Dentro buscar `<div class="lyrics">`, hacer clic derecho sobre él > Copy > Copy Element
-5) Pegar el contenido en chatgpt debajo del prompt y lanzarlo (recuerda usar Shift + Enter)
-6) Crear un archivo .json dentro de la carpeta JSON con el nombre de la banda, el álbum y el año según el formato `banda -- álbum -- año.json`
-7) Incluir el nombre del archivo en available-songs.json
+1) Buscar el álbum en `http://www.darklyrics.com/index.html`.
+2) Copiar el contenido desde el nombre de la banda hasta el último verso de la última canción.
+3) Dirigirse a la página y clicar en `Añadir Prompt al Portapapeles` (permitir la acción).
+4) Pegar el contenido en ChatGPT, seleccionar la opción `Razona` y lanzar la petición.
+5) Cuando termine la generación crear un archivo .json dentro de `assets/json/` con el nombre de la banda, el álbum y el año según el formato `Banda -- Álbum -- año.json`.
+6) Incluir el nombre completo del archivo en `assets/json/_AVAILABLE_SONGS.json`.
+7) Hacer commit y push para desplegar en producción.

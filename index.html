@@ -4,23 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JSON Momoa Lyrics</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mobile.css">
-  <link rel="stylesheet" href="dark-mode.css">
-  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
 </head>
 <body>
+
+  <header>
+    <button class="clipboard-prompt" title="Añadir prompt al portapapeles" onclick="addPromptToClipboard()">
+      Añadir Prompt al Portapapeles
+    </button>
+    <button class="dark-mode-toggle" title="Cambiar modo oscuro"><span></span></button>
+  </header>
+
   <h1>
     <span class="image-shadow">
-      <img class="favicon" src="favicon.png" alt="favicon">
+      <img class="favicon" src="assets/img/favicon.png" alt="favicon">
     </span>
-    <span>JSON Momoa Lyrics</span>
+    <span class="title">JSON Momoa Lyrics</span>
   </h1>
   <h2>Comparativa de Letras de Canciones en Formato JSON</h2>
+
   <div id="song-picker" class="song-picker"></div>
   <div id="fileInfo"></div>
   <div id="songsContainer"></div>
-  <button id="darkModeToggle" title="Cambiar modo oscuro"><span></span></button>
-  <script src="main.js"></script>
+
+  <script src="assets/js/dark-mode.js"></script>
+  <script src="assets/js/song-picker.js"></script>
+  <script src="assets/js/clipboard-prompt.js"></script>
 </body>
 </html>

@@ -4,6 +4,50 @@ body {
   margin: 20px;
   color: #333;
 }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a8fce;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.clipboard-prompt {
+  background: #e9eff4;
+  color: #1e1e1e;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+.dark-mode-toggle {
+  background: #e9eff4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+.clipboard-prompt:hover,
+.dark-mode-toggle:hover {
+  background: white;
+}
+.dark-mode-toggle span {
+  display: block;
+  line-height: 36px;
+}
 h1 {
   display: flex;
   justify-content: center;
@@ -29,6 +73,9 @@ h3 {
 .image-shadow img {
   display: block;
   border-radius: 18px;
+}
+h1 .title {
+  padding-right: 12px;
 }
 .song-picker {
   box-sizing: border-box;
