@@ -106,5 +106,6 @@ fetch(`${HOST_URL}/available-songs.json`)
     createSongPicker(data);
   })
   .catch(error => {
+    console.error(error);
     songsContainer.innerHTML = `<p style="color:red; text-align: center;">Error al cargar: ${error.message}</p>`;
   });
