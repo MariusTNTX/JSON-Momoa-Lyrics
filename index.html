@@ -6,17 +6,21 @@
   <title>JSON Momoa Lyrics</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="dark-mode.css">
   <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
   <h1>
-    <img class="favicon" src="favicon.png" alt="favicon">
+    <span class="image-shadow">
+      <img class="favicon" src="favicon.png" alt="favicon">
+    </span>
     <span>JSON Momoa Lyrics</span>
   </h1>
   <h2>Comparativa de Letras de Canciones en Formato JSON</h2>
   <div id="song-picker" class="song-picker"></div>
   <div id="fileInfo"></div>
   <div id="songsContainer"></div>
+  <button id="darkModeToggle" title="Cambiar modo oscuro"><span></span></button>
   <script src="main.js"></script>
 </body>
 </html>

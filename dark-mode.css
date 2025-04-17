@@ -1,0 +1,79 @@
+#darkModeToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #5a8fce;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background 0.3s;
+}
+
+#darkModeToggle:hover {
+  background: #3e6da0;
+}
+
+#darkModeToggle span {
+  display: block;
+  height: 30px;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode #fileInfo,
+body.dark-mode .song-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .song-picker {
+  background: #2a2a2a;
+  border-color: #444;
+}
+
+body.dark-mode .song-item {
+  background: #3a3a3a;
+  color: #ddd;
+}
+
+body.dark-mode .song-item:hover {
+  background: #505050;
+}
+
+body.dark-mode .song {
+  background: #2c2c2c;
+  border-left-color: #7ba8e3;
+}
+
+body.dark-mode .verse {
+  background: #3a3a3a;
+}
+
+body.dark-mode .original {
+  color: #9fc1f7;
+}
+
+body.dark-mode .spanish {
+  color: #b0d1ff;
+}
+
+body.dark-mode .instrumental {
+  background: #333;
+  color: #aaa;
+}
+
+body.dark-mode .image-shadow {
+  background: radial-gradient(circle, #e0e0e0 50%, #1e1e1e 70%);
+}

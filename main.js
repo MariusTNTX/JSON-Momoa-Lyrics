@@ -97,6 +97,26 @@ function showSongs(canciones) {
   });
 }
 
+function updateIcon() {
+  if (localStorage.getItem('dark-mode')) {
+    iconSpan.textContent = "🌙";
+    document.body.classList.add("dark-mode");
+  } else {
+    iconSpan.textContent = "☀️";
+    document.body.classList.remove("dark-mode");
+  }
+}
+
+const toggleBtn = document.getElementById("darkModeToggle");
+const iconSpan = toggleBtn.querySelector("span");
+
+updateIcon();
+toggleBtn.addEventListener("click", () => {
+  if(localStorage.getItem('dark-mode')) localStorage.removeItem('dark-mode');
+  else localStorage.setItem('dark-mode', 'true');
+  updateIcon();
+});
+
 fetch(`${HOST_URL}/available-songs.json`)
   .then(res => {
     if (!res.ok) throw new Error("No se encontraron canciones disponibles.");
