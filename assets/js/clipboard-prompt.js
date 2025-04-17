@@ -57,10 +57,13 @@ CONTENIDO DE LA PÁGINA:`;
 async function addPromptToClipboard() {
   try {
     const clipboardText = await navigator.clipboard.readText();
-    const finalPrompt = PROMPT + "\n\n" + clipboardText;
-    await navigator.clipboard.writeText(finalPrompt);
+		if(clipboardText){
+			const finalPrompt = PROMPT + "\n\n" + clipboardText;
+			await navigator.clipboard.writeText(finalPrompt);
+		} else {
+			alert("No existe contenido en el portapapeles");
+		}
   } catch (err) {
-    alert("Error accediendo al portapapeles");
     console.error("Error accediendo al portapapeles:", err);
   }
 }
