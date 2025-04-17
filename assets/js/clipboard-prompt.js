@@ -49,6 +49,7 @@ Ejemplo de estructura JSON:
 Más instrucciones importantes: 
 - Procura realizar traducciones que tengan sentido en castellano para un español promedio en vez de traducir literalmente del inglés. 
 - Debes adaptarte al contexto de la canción, y para ello es importante que realices la traducción de cada linea teniendo en cuenta las demás líneas de la canción.
+- No dejes nunca versos sueltos, siempre deben ir incluidos dentro de una sección.
 - Devuelve únicamente el JSON dentro de una ventana de código JSON para que pueda copiarlo con un click.
 
 CONTENIDO DE LA PÁGINA:`;
