@@ -27,7 +27,7 @@ function createSongPicker(availableSongs) {
 }
 
 function loadSong(filename) {
-  fetch(`${HOST_URL}/assets/json/${filename}`)
+  fetch(`${HOST_URL}/JSON/${filename}`)
     .then(res => {
       if (!res.ok) throw new Error("No se pudo cargar el archivo.");
       return res.json();
@@ -97,7 +97,7 @@ function showSongs(canciones) {
   });
 }
 
-fetch(`${HOST_URL}/assets/json/_AVAILABLE_SONGS.json`)
+fetch(`${HOST_URL}/available-songs.json`)
   .then(res => {
     if (!res.ok) throw new Error("No se encontraron canciones disponibles.");
     return res.json();
